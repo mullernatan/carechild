@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Child</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f4f4f4, #dff0d8);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #2e4d38;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            animation: fadeInDown 1s ease-out;
+        }
+        .logo {
+            max-width: 150px;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #2e4d38;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2e4d38;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #3b6b4f;
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Care Child</h1>
+        <img src="/mnt/data/485084536_1012294707443881_8672598375738317476_n.png" alt="Logo Care Child" class="logo">
+    </header>
+    <div class="container">
+        <h2>O Projekcie</h2>
+        <p>Projekt „Care Child” powstał w ramach olimpiady Zwolnieni z Teorii, aby realnie wpływać na życie dzieci w Afryce. Naszym celem jest pokazanie problemów ubóstwa i braku dostępu do edukacji wśród najmłodszych mieszkańców Afryki oraz zebranie środków na pomoc humanitarną.</p>
+        <p>Jesteśmy uczniami III Liceum Ogólnokształcącego im. Jana Pawła II w Rudzie Śląskiej. Organizatorzy projektu: Natan Müller, Karolina Łęczycka, Martyna Nowak, Julia Wojciechowska, Laura Bielawska.</p>
+        <h2>Polska Fundacja dla Afryki</h2>
+        <img src="https://pomocafryce.org/wp-content/uploads/2020/11/logo.png" alt="Logo Polskiej Fundacji dla Afryki">
+        <p>Polska Fundacja dla Afryki realizuje projekty humanitarne obejmujące budowę studni, szkół, szpitali oraz programy żywieniowe. Od lat wspiera najbiedniejszych mieszkańców Afryki, zapewniając im godne warunki życia.</p>
+        <p>Dzięki fundacji powstało już wiele projektów, które pomogły tysiącom ludzi. Ich działania obejmują dostarczanie sprzętu medycznego, żywności oraz wsparcie edukacyjne dla dzieci.</p>
+        <img src="https://pomocafryce.org/wp-content/uploads/2020/11/Afryka-projekt.jpg" alt="Działania Fundacji">
+        <img src="https://pomocafryce.org/wp-content/uploads/2020/11/Studnia-Afryka.jpg" alt="Budowa studni">
+        <h2>Zwolnieni z Teorii</h2>
+        <p>„Zwolnieni z Teorii” to olimpiada, w której uczniowie realizują własne projekty społeczne, zdobywając przy tym doświadczenie i umiejętności zarządzania. Olimpiada pozwala młodzieży na rozwijanie swoich kompetencji i zdobycie praktycznej wiedzy.</p>
+        <p>Co roku setki zespołów z całej Polski realizują swoje inicjatywy, zdobywając międzynarodowe certyfikaty i pomagając innym. Nasz projekt „Care Child” jest częścią tej inicjatywy.</p>
+        <h2>Jak możesz pomóc?</h2>
+        <p>Możesz wesprzeć naszą inicjatywę, przekazując darowiznę na naszą zbiórkę online.</p>
+        <a href="https://pomagam.pl/rmkr9b?fbclid=IwY2xjawJSpzxleHRuA2FlbQIxMQABHdcIBi4Pq_0MteAS-eZibU7whGZN76-mtfRtBZHT1HW_UqZsZEnbMB7gEw_aem_EK8FH4oCwcWMJfmpTX9KEQ" class="btn" target="_blank">Wesprzyj naszą zbiórkę</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Care Child. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
